@@ -1,5 +1,5 @@
 package Transport;
 
 public class Ciezarowka extends Transport {
-    private int pojemnosc =1;
+    private static final int POJEMNOSC =1;
 }

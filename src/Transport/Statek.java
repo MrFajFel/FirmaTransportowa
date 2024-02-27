@@ -1,5 +1,5 @@
 package Transport;
 
 public class Statek extends Transport {
-    private int pojemnosc = 90;
+    private static final int POJEMNOSC = 90;
 }

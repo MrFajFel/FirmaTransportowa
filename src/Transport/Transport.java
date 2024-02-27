@@ -1,10 +1,15 @@
 package Transport;
+import java.util.*;
+import Towar.Kontener;
+import Towar.Magazyn;
 
 public abstract class Transport {
-    public void Przetransportuj(/*z,do*/){
+    private ArrayList<Kontener> kontenery = new ArrayList<>();
+    public void przetransportuj(Magazyn z,Magazyn dokad){
 
     }
-    public void zaladuj(){
+    public abstract void zaladuj(Kontener kontener);
 
-    }
+
+
 }
