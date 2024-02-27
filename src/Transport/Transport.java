@@ -1,3 +1,5 @@
+package Transport;
+
 public abstract class Transport {
     public void Przetransportuj(/*z,do*/){
 
