@@ -13,11 +13,14 @@ public class Magazyn {
       return miejscowosc;
    }
    public Kontener wezKontener(){
-      if (!magazyn.isEmpty()){
-         return magazyn.getFirst();
-      }
-      else {
+      if (!magazyn.isEmpty())
+         return magazyn.removeFirst();
+      else
          return null;
-      }
    }
+
+   public void dodajKontener(Kontener k){
+      magazyn.add(k);
+   }
+
 }
