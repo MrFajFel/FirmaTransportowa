@@ -4,7 +4,7 @@ import Towar.Kontener;
 import Towar.Magazyn;
 
 public abstract class Transport {
-    private ArrayList<Kontener> kontenery = new ArrayList<>();
+    protected ArrayList<Kontener> kontenery = new ArrayList<>();
     public void przetransportuj(Magazyn z,Magazyn dokad){
 
     }
